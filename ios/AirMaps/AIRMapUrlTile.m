@@ -187,7 +187,7 @@
             continue;
         }
         [_map removeOverlay:overlay];
-        [_map addOverlay:overlay];
+        [_map addOverlay:overlay level:MKOverlayLevelAboveLabels];
     }
 }
 

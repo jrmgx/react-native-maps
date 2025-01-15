@@ -74,7 +74,7 @@
 
     if (_map == nil) return;
     [_map removeOverlay:self];
-    [_map addOverlay:self];
+    [_map addOverlay:self level:MKOverlayLevelAboveLabels];
 }
 
 
